@@ -1,0 +1,37 @@
+[
+  {
+    "parent_name": "Rahul",
+    "parent_email": "rahul@example.com",
+    "text": "The admission process was smooth and the staff were very helpful. Thank you!"
+  },
+  {
+    "parent_name": "Meera",
+    "parent_email": "meera@example.com",
+    "text": "My daughter's hostel bathroom is often dirty and the maintenance is slow."
+  },
+  {
+    "parent_name": "Kumar",
+    "parent_email": "kumar@example.com",
+    "text": "The tuition fee invoice has unexpected charges. Please clarify the billing."
+  },
+  {
+    "parent_name": "Anita",
+    "parent_email": "anita@example.com",
+    "text": "WiFi on campus keeps dropping. The LMS login also fails frequently."
+  },
+  {
+    "parent_name": "Vikram",
+    "parent_email": "vikram@example.com",
+    "text": "Professors are covering the syllabus well, but the exam schedule was shared very late."
+  },
+  {
+    "parent_name": "Sara",
+    "parent_email": "sara@example.com",
+    "text": "Cafeteria food has improved a lot recently. Great job to the mess team!"
+  },
+  {
+    "parent_name": "Farah",
+    "parent_email": "farah@example.com",
+    "text": "We are still waiting for scholarship confirmation for this semester."
+  }
+]

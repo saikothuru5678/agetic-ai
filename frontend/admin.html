@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Admin Dashboard • Agentic AI</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="container" id="adminPage">
+    <div class="card">
+      <h1>Admin Dashboard</h1>
+      <h2>Filter and review parent feedback routed by the AI agent.</h2>
+      <div class="row">
+        <div>
+          <label>Filter by Sentiment</label>
+          <select id="filter_sentiment">
+            <option value="">All</option>
+            <option value="positive">Positive</option>
+            <option value="negative">Negative</option>
+            <option value="neutral">Neutral</option>
+          </select>
+        </div>
+        <div>
+          <label>Filter by Department</label>
+          <select id="filter_department">
+            <option value="">All</option>
+            <option>Academics</option>
+            <option>Admissions</option>
+            <option>Examination Cell</option>
+            <option>Finance</option>
+            <option>Canteen</option>
+            <option>Hostel</option>
+            <option>Library</option>
+            <option>Laboratories</option>
+            <option>Sports</option>
+            <option>Placement Cell</option>
+            <option>Other</option>
+          </select>
+        </div>
+      </div>
+      <button id="refresh">Refresh</button>
+      <div style="margin-top:10px;color:#a7b1d6">Showing <span id="count">0</span> entries</div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Feedback</th>
+            <th>Sentiment</th>
+            <th>Department</th>
+            <th>Created</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <div class="footer">Admin • Agentic AI Parent–University Engagement Platform</div>
+  </div>
+  <script src="/static/script.js"></script>
+</body>
+</html>
